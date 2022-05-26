@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<menu-config xmlns="http://jmix.io/schema/ui/menu">
+
+    <menu id="application" caption="msg://ru.vsu.dbcourse/menu.application" insertBefore="administration">
+        <item screen="User.browse" caption="msg://ru.vsu.dbcourse.screen.user/UserBrowse.caption"/>
+        <item screen="themeSettingsScreen" caption="msg://io.jmix.ui.app.themesettings/themeSettings.caption"/>
+        <item screen="Student.browse" caption="msg://ru.vsu.dbcourse.screen.student/studentBrowse.menu"/>
+        <item screen="Specialization.browse"
+              caption="msg://ru.vsu.dbcourse.entity.specialization/specializationBrowse.menu"/>
+        <item screen="Faculty.browse" caption="msg://ru.vsu.dbcourse.entity.faculty/facultyBrowse.menu"/>
+        <item screen="Mark.browse" caption="msg://ru.vsu.dbcourse.screen.mark/markBrowse.menu"/>
+    </menu>
+
+</menu-config>
